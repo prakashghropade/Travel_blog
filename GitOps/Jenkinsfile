@@ -52,7 +52,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage("Git: Code update and push to GitHub"){
             steps{
                 script{
